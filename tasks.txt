@@ -1,0 +1,177 @@
+using System;
+using System.Threading.Channels;
+
+namespace _29._03._2023
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //**********************TASK1**********************
+            //Console.Write("Ədəd daxil edin:");
+            //int number1 = int.Parse(Console.ReadLine());
+            //Console.Write("Ikinci ədəd daxil edin:");
+            //int number2 = int.Parse(Console.ReadLine());
+            //Sum(number1, number2);
+
+
+            //**********************TASK3**********************
+            //Console.Write("Ədəd daxil edin:");
+            //float number = float.Parse(Console.ReadLine());
+            //rounding(number);
+
+
+            //**********************TASK4**********************
+            //Console.Write("Ədəd daxil edin:");
+            //int number = int.Parse(Console.ReadLine());
+            //evenOdd(number);
+
+
+
+            //**********************TASK5**********************
+            //Console.Write("True/False daxil edin:");
+            //bool @bool = bool.Parse(Console.ReadLine());
+            //Value(@bool);
+
+
+
+
+
+
+            //**********************TASK6**********************
+            //Console.WriteLine("Adınızı daxil edin:");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Soyadınızı daxil edin:");
+            //string surname = Console.ReadLine();
+            //FullName(name, surname);
+
+
+
+            //**********************TASK7**********************
+            //Console.WriteLine("Ededi daxil edin:");
+            //int number = int.Parse(Console.ReadLine());
+            //Exponent(number);
+
+
+
+
+            //**********************TASK8**********************
+            //Console.WriteLine("Eded daxil edin:");
+            //int number = int.Parse(Console.ReadLine());
+            //CheckNum(number);
+
+
+
+
+            //**********************TASK9**********************
+            //Console.WriteLine("Eded daxil edin:");
+            //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Quvvet daxil edin:");
+            //int power = int.Parse(Console.ReadLine());
+            //PowerNum(number, power);
+
+
+
+
+        }
+        //**********************TASK1**********************
+        //static void Sum(int number1, int number2)
+        //{
+        //    Console.WriteLine(number1 + number2);
+        //}
+
+
+        //**********************TASK3**********************
+        //static void rounding(float number)
+        //{
+        //    Console.WriteLine(Math.Round(number, 0));
+        //}
+
+
+        //**********************TASK4**********************
+        //static void evenOdd(int number)
+        //{
+        //    bool even = true;
+        //    if (number % 2 == 1)
+        //    {
+        //        even = false;
+        //        Console.WriteLine("Tək ədəddir." + even);
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Cüt ədəddir." + even);
+        //    }
+        //}
+
+
+        //**********************TASK5**********************
+        //static void Value (Boolean value)
+        //{
+        //    string res = value.ToString();
+        //    if (value = true)
+        //    {
+                
+        //        Console.WriteLine("Bəli");
+                
+        //    }
+        //    else if (value  = false) 
+        //    {
+        //        Console.WriteLine("Xeyr");
+                
+        //    }
+
+        //}
+
+
+
+        //**********************TASK6**********************
+        //static void FullName(string name,string surname) 
+        //{
+        //    Console.WriteLine($"{name} {surname}");
+        //}
+
+
+
+        //**********************TASK7**********************
+        //static void Exponent (decimal number)
+        //{
+        //    Console.WriteLine(number*number);
+        //}
+
+
+
+
+        //**********************TASK8**********************
+        //   static void CheckNum(int number) 
+        //   { 
+        //       int a = 0;
+        //       bool b = false;
+        //     for(int i = 2; i <= number/2; i++)    
+        //     {    
+        //      if(number % i == 0)    
+        //       {    
+        //        Console.Write("Ədəd mürəkkəbdir" + b);    
+        //        a=1;    
+        //        break;    
+        //       }
+        //         }
+        //       if (a == 0)
+        //           b = true;
+        //         Console.Write("Ədəd sadədir" + b );       
+        //}  
+
+
+
+        //**********************TASK9**********************
+        //static void PowerNum(int number, int power)
+        //{
+        //    int powercopy = 1;
+        //    for (int i = 0; i < power; i++)
+        //    {
+        //        powercopy *= number;
+        //    }
+        //    Console.WriteLine(powercopy);
+        //}
+
+    }
+}
